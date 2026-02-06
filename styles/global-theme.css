@@ -37,6 +37,12 @@ body {
         /* o un altro colore per l'hover */
 }
 
+#languageIcon {
+    width: 28px !important;
+    height: 28px !important;
+    margin-left: 5px;
+}
+
 .custom-button {
     background-color: #000000;
     color: #ffffff;

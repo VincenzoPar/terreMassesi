@@ -12,8 +12,27 @@
     background-color: #e1b283;
 }
 
-/* Da medium (≥768px) in poi: background normale + hover */
+.lucellaBox {
+    transition: all 0.8s ease;
+    background-color: #6459b0;
+}
+
+.neveneBox {
+    transition: all 0.8s ease;
+    background-color: #006451;
+}
+
+#fotoVigna{
+    width: 400px;
+}
+
+/* Da medium (≥768px) in poi*/
 @media (min-width: 768px) {
+
+    #fotoVigna{
+        width: 500px;
+    }
+
     .lenguaBox {
         background-color: transparent;
         /* o il colore di default */
@@ -22,15 +41,7 @@
     .lenguaBox:hover {
         background-color: #e1b283;
     }
-}
 
-.lucellaBox {
-    transition: all 0.8s ease;
-    background-color: #6459b0;
-}
-
-/* Da medium (≥768px) in poi: background normale + hover */
-@media (min-width: 768px) {
     .lucellaBox {
         background-color: transparent;
         /* o il colore di default */
@@ -39,14 +50,7 @@
     .lucellaBox:hover {
         background-color: #6459b0;
     }
-}
 
-.neveneBox {
-    transition: all 0.8s ease;
-    background-color: #006451;
-}
-
-@media (min-width: 768px) {
     .neveneBox {
         background-color: transparent;
         /* o il colore di default */
