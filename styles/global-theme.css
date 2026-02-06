@@ -1,0 +1,189 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    background-color: #111 !important;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    background-color: #111;
+}
+
+.dropdown-item {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.dropdown-item:hover {
+    background-color: #333;
+    color: wheat;
+    /* o un altro colore per l'hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: wheat
+        /* o un altro colore per l'hover */
+}
+
+.custom-button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+
+.custom-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.custom-button2 {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+
+.custom-button2:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+/* Scritta Nascosta */
+.scritta-nascosta {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.scritta-nascosta.visibile {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card {
+    background-color: black;
+    border-radius: 0%;
+}
+
+a.link-freccia {
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+a.link-freccia i {
+    transition: transform 0.3s ease;
+}
+
+a.link-freccia:hover i {
+    transform: translateX(5px);
+}
+
+#carouselExampleRide .carousel-item {
+    transition: transform 2.0s ease-in-out !important;
+}
+
+.carousel-caption {
+    left: 3%;
+    right: auto;
+    text-align: left;
+}
+
+.footer-dark {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer-logo {
+    max-width: 250px;
+    height: auto;
+}
+
+.footer-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.footer-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #cccccc;
+}
+
+.footer-social {
+    display: inline-flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.footer-credits {
+    font-size: 0.85rem;
+    color: #888888;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.credits-logo {
+    height: 20px;
+    width: auto;
+    opacity: 0.7;
+}

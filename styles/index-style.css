@@ -1,0 +1,58 @@
+#primoBg {
+    background-image: url('../assets/index/homepageBackGround.png');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.lenguaBox {
+    transition: all 0.8s ease;
+    /* Su schermi piccoli, il background è sempre attivo */
+    background-color: #e1b283;
+}
+
+/* Da medium (≥768px) in poi: background normale + hover */
+@media (min-width: 768px) {
+    .lenguaBox {
+        background-color: transparent;
+        /* o il colore di default */
+    }
+
+    .lenguaBox:hover {
+        background-color: #e1b283;
+    }
+}
+
+.lucellaBox {
+    transition: all 0.8s ease;
+    background-color: #6459b0;
+}
+
+/* Da medium (≥768px) in poi: background normale + hover */
+@media (min-width: 768px) {
+    .lucellaBox {
+        background-color: transparent;
+        /* o il colore di default */
+    }
+
+    .lucellaBox:hover {
+        background-color: #6459b0;
+    }
+}
+
+.neveneBox {
+    transition: all 0.8s ease;
+    background-color: #006451;
+}
+
+@media (min-width: 768px) {
+    .neveneBox {
+        background-color: transparent;
+        /* o il colore di default */
+    }
+
+    .neveneBox:hover {
+        background-color: #006451;
+    }
+}
