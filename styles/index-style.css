@@ -2,13 +2,13 @@
     background-image: url('../assets/index/homepageBackGround.png');
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: clamp(500px, 80vh, 1000px);
     overflow: hidden;
 }
 
+
 .lenguaBox {
     transition: all 0.8s ease;
-    /* Su schermi piccoli, il background è sempre attivo */
     background-color: #e1b283;
 }
 
@@ -22,20 +22,15 @@
     background-color: #006451;
 }
 
-#fotoVigna{
-    width: 400px;
+#fotoVigna {
+    width: 100%;
+    max-width: 500px;
 }
 
 /* Da medium (≥768px) in poi*/
 @media (min-width: 768px) {
-
-    #fotoVigna{
-        width: 500px;
-    }
-
     .lenguaBox {
         background-color: transparent;
-        /* o il colore di default */
     }
 
     .lenguaBox:hover {
@@ -44,7 +39,6 @@
 
     .lucellaBox {
         background-color: transparent;
-        /* o il colore di default */
     }
 
     .lucellaBox:hover {
@@ -53,10 +47,46 @@
 
     .neveneBox {
         background-color: transparent;
-        /* o il colore di default */
     }
 
     .neveneBox:hover {
         background-color: #006451;
+    }
+}
+
+@media (max-width: 767px) {
+    #primoBg {
+        height: 400px;
+    }
+}
+
+/* Sostituisci il padding nella row del contenuto */
+/* Cambia da: class="row mt-5 mb-md-5 ms d-flex align-items-center justify-content-center ps-4 px-0" */
+/* In: */
+.row.mt-5.mb-md-5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.px-md-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Nel footer, aggiungi padding responsive */
+.footer-dark {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .footer-dark {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
