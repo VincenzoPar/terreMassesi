@@ -1,3 +1,13 @@
+/* Fix overflow orizzontale mobile */
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.container-fluid {
+    overflow-x: hidden;
+}
+
 #primoBg {
     background-image: url('../assets/index/homepageBackGround.png');
     background-size: cover;
@@ -5,7 +15,6 @@
     height: clamp(500px, 80vh, 1000px);
     overflow: hidden;
 }
-
 
 .lenguaBox {
     transition: all 0.8s ease;
@@ -24,11 +33,16 @@
 
 #fotoVigna {
     width: 100%;
-    max-width: 500px;
+    max-width: 100%;
 }
 
 /* Da medium (≥768px) in poi*/
 @media (min-width: 768px) {
+    #fotoVigna {
+        width: 100%;
+        max-width: 500px;
+    }
+
     .lenguaBox {
         background-color: transparent;
     }

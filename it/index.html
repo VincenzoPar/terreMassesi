@@ -21,7 +21,7 @@
 <body>
     <!-- Contenuto principale del sito -->
     <div class="container-fluid m-0 p-0">
-        <div class="row">
+        <div class="row m-0 p-0">
             <nav class="navbar w-100 navbar-expand-md bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand ps-4" href="index.html">
@@ -70,10 +70,10 @@
                                     <img src="../assets/common/italy.png" id="languageIcon" alt="italianFlag">
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end">
-                                    <li><a class="dropdown-item" href="/en/">
+                                    <li><a class="dropdown-item" href="/en/index.html">
                                             <img src="../assets/common/united-kingdom.png" id="languageIcon"
                                                 alt="englishFlag" class="me-2">
-                                                English
+                                            English
                                         </a></li>
                                 </ul>
                             </li>
@@ -83,7 +83,7 @@
                 </div>
             </nav>
         </div>
-        <div class="row">
+        <div class="row m-0 p-0">
             <div class="col-12 d-none d-md-flex align-items-center justify-content-end" id="primoBg">
                 <div class="text-center card scritta-nascosta p-5 me-md-5">
                     <img src="../assets/common/Terre_Massesi_pittogramma_nero.png" alt="Terre Massesi Pittogramma"
@@ -98,7 +98,7 @@
                             Ai suoi paesaggi mozzafiato.
                         </span>
                     </h1>
-                    <h1 style="text-align: center;">
+                    <h1 style="text-align: center;" class="mb-5">
                         <span style="font-size: 30px; font-weight: 200; color: #ffffff;">
                             Alle sue tradizioni secolari. Alla sua bellezza.
                         </span>
@@ -108,12 +108,12 @@
                     </a>
                 </div>
             </div>
-            <div class="d-flex d-md-none">
-                <img src="../assets/index/TerreMassesi-Home03-1.png" alt="backgroundHome" class="img-fluid m-auto">
+            <div class="d-md-none w-100 p-0 m-0">
+                <img src="../assets/index/TerreMassesi-Home03-1.png" alt="backgroundHome" class="img-fluid w-100">
             </div>
-            <div class="d-flex d-md-none card scritta-nascosta p-5 text-center">
+            <div class="d-block d-md-none p-5 text-center" style="background-color: black;">
                 <img src="../assets/common/Terre_Massesi_pittogramma_nero.png" alt="Terre Massesi Pittogramma"
-                    class="m-auto" style="width: 100px;">
+                    class="img-fluid" style="width: 100px;">
                 <h1>
                     <span style="font-size: 30px; font-weight: 200; color: #ffffff;">
                         Ogni sorso dei nostri vini è
@@ -124,7 +124,7 @@
                         Ai suoi paesaggi mozzafiato.
                     </span>
                 </h1>
-                <h1 style="text-align: center;">
+                <h1 style="text-align: center;" class="mb-4">
                     <span style="font-size: 30px; font-weight: 200; color: #ffffff;">
                         Alle sue tradizioni secolari. Alla sua bellezza.
                     </span>
@@ -134,12 +134,12 @@
                 </a>
             </div>
         </div>
-        <div class="row mt-5 mb-md-5 ms d-flex align-items-center justify-content-center ps-4 px-0">
+        <div class="row mt-5 mb-md-5 ms d-flex align-items-center justify-content-center px-3">
             <div class="col-md-6">
                 <img src="../assets/index/TerreMassesi_sorsi_di_autenticita.png"
                     alt="Terre massesi, sorsi di autenticità" class="img-fluid">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <div class="mt-5" style="font-weight: 300;">
                     Sorsi di autenticità
                 </div>
@@ -161,6 +161,7 @@
                     <i class="fa fa-arrow-right"></i>
                 </a>
             </div>
+            <div class="col-md-3 d-none d-md-block"></div>
         </div>
 
         <hr class="mt-5 mb-5" style="border: 1px solid black;">
@@ -273,17 +274,15 @@
                 </div>
             </div>
             <div class="col-md-6 mt-5 mt-md-0 pe-5 d-none d-md-flex">
-                <img src="../assets/index/TerreMassesi-Home03-1.png" alt="Terre massesi, vigna" class="img-fluid"
-                    >
+                <img src="../assets/index/TerreMassesi-Home03-1.png" alt="Terre massesi, vigna" class="img-fluid">
             </div>
         </div>
 
-        <div class="row mt-5 mb-3">
+        <div class="row mt-5 mb-5">
             <div class="col-lg-6 d-flex m-auto" id="fotoVigna">
-                <img src="../assets/index/TerreMassesi-sannio-mobile.png" alt="Terre massesi, vigna"
-                    class="img-fluid">
+                <img src="../assets/index/TerreMassesi-sannio-mobile.png" alt="Terre massesi, vigna" class="img-fluid">
             </div>
-            <div class="col-md-6 m-auto d-none d-md-block mb-5">
+            <div class="col-md-6 m-auto d-none d-md-block">
                 <div class="row">
                     <div class="col-12">
                         <h1 style="font-weight: 200;">
@@ -335,7 +334,7 @@
                     </span>
                 </h1>
                 <a class="custom-button mx-auto mt-4 text-center text-decoration-none" href="i-vini.html">
-                    EXPLORE
+                    ESPLORA
                 </a>
             </div>
         </div>

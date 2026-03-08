@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+  body {
+    background-image: url("../assets/terreMassesi/TerreMassesi-parralax-desktop.png");
+    background-attachment: fixed !important;
+    overflow-x: hidden !important;
+  }
+}
+
+.row-page {
+  background-color: white !important;
+}
+
+.card {
+  background-color: white !important;
+
+  .h5 {
+    font-weight: 200;
+  }
+
+  .p {
+    font-weight: 200;
+    font-size: larger;
+  }
+}
+
+@media (max-width: 767px) {
+    html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+        overflow-x: hidden;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
