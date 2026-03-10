@@ -1,0 +1,59 @@
+.lenguaBox {
+    transition: all 0.8s ease;
+    background-color: #e1b283;
+}
+
+.lucellaBox {
+    transition: all 0.8s ease;
+    background-color: #6459b0;
+}
+
+.neveneBox {
+    transition: all 0.8s ease;
+    background-color: #006451;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Da medium (≥768px) in poi*/
+@media (min-width: 768px) {
+    #fotoVigna {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .lenguaBox {
+        background-color: transparent;
+    }
+
+    .lenguaBox:hover {
+        background-color: #e1b283;
+    }
+
+    .lucellaBox {
+        background-color: transparent;
+    }
+
+    .lucellaBox:hover {
+        background-color: #6459b0;
+    }
+
+    .neveneBox {
+        background-color: transparent;
+    }
+
+    .neveneBox:hover {
+        background-color: #006451;
+    }
+}
+
+

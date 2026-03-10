@@ -1,13 +1,4 @@
 /* Fix overflow orizzontale mobile */
-html, body {
-    overflow-x: hidden;
-    max-width: 100%;
-}
-
-.container-fluid {
-    overflow-x: hidden;
-}
-
 #primoBg {
     background-image: url('../assets/index/homepageBackGround.png');
     background-size: cover;
@@ -74,28 +65,9 @@ html, body {
     }
 }
 
-/* Sostituisci il padding nella row del contenuto */
-/* Cambia da: class="row mt-5 mb-md-5 ms d-flex align-items-center justify-content-center ps-4 px-0" */
-/* In: */
-.row.mt-5.mb-md-5 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-}
-
-.px-md-0 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-/* Nel footer, aggiungi padding responsive */
-.footer-dark {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,14 @@
+#lucellaDesktop {
+    background-color: #6459b0;
+    background-image: 
+        linear-gradient(
+            -45deg,
+            transparent 20%,
+            black 20%, black 27%,
+            transparent 27%, transparent 47%,
+            black 47%, black 54%,
+            transparent 54%, transparent 73%,
+            black 73%, black 80%,
+            transparent 80%
+        );
+}
