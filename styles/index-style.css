@@ -22,11 +22,6 @@
     background-color: #006451;
 }
 
-#fotoVigna {
-    width: 100%;
-    max-width: 100%;
-}
-
 /* Da medium (≥768px) in poi*/
 @media (min-width: 768px) {
     #fotoVigna {
