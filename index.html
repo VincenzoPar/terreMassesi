@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirect</title>
+  <script>
+    (function () {
+      var lang = (navigator.language || navigator.userLanguage || 'it').substring(0, 2).toLowerCase();
+      var supported = ['it', 'en'];
+      if (supported.indexOf(lang) === -1) lang = 'it'; // fallback
+      window.location.replace(lang + '/index.html');
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=it/index.html">
+  </noscript>
+</head>
+<body>
+  <p>Reindirizzamento in corso... <a href="it/index.html">Clicca qui</a> se non vieni reindirizzato.</p>
+</body>
+</html>
